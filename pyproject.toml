@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sql-db"
+version = "0.1.0"
+description = ""
+authors = ["Andrii Kylymnyk <a.kylymnyk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sql_db"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^17.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
